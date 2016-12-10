@@ -42,6 +42,9 @@
   src: url('../fonts/PlayfairDisplay-Regular.otf');
  }
 
+.small-horizontal_padding {
+  padding: 0px 7px;
+}
 
 /*
 ///////////////////////////////////////////////////
@@ -99,7 +102,7 @@ Sectond Section Icons + Text  2
 }
 
 .section-2_title {
-  padding: 0px 0px 50px;
+  padding: 0px 0px 20px;
   text-align: center;
 }
 .section-2_title h1 {
@@ -171,29 +174,162 @@ Sectond Section Icons + Text  2
 
 /*
 ///////////////////////////////////////////////////
-  Facts Section Homepage
+  Portfolio Section Homepage
+///////////////////////////////////////////////////
+*/
+.portfolio_section {
+  padding-bottom: 50px;
+}
+.portfolio-section_title {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.portfolio-section_title h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'PlayfairDisplay-Italic';
+  font-size: 45px;  
+}
+
+.portfolio-section_title p{
+  color: #b3b3b3;
+  font-size: 12px;
+  font-family: "Montserrat-UltraLight"; 
+}
+
+
+/*
+///////////////////////////////////////////////////
+  Testimonials Section Homepage
 ///////////////////////////////////////////////////
 */
 .testimonials_section {
-  padding: 40px 0px;
+  padding: 60px 0px;
   text-align: center;
   background-color: #f2f2f2;
 }
 
-.testimonials_section p {
-  color: #b3b3b3;
-}
-
 .testimonials_section h1 {
   margin-top: 0px;
+  margin-bottom: 0px;
   font-family: 'PlayfairDisplay-Italic';
   font-size: 45px; 
 }
-
-.testimonial_text {
-  background-color: white;
+.testimonials_section span {
+  color: #b3b3b3;  
+  font-family: "Montserrat-Light";
 }
 
+.testimonials_section p {
+  color: #b3b3b3;
+  font-size: 12px;
+  font-family: "Montserrat-UltraLight";
+}
+
+.horizontal_padding-testimonial {
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+.panel-testimonial1 img {
+  border-radius: 150px;
+  padding: 10px;
+  width: 250px;
+  margin-bottom: -120px;
+  background: transparent;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  transition: ease-in-out 0.3s all;
+}
+.panel-testimonial1:hover img {
+    -webkit-filter: grayscale(0%);
+    background: white;
+}
+.panel-testimonial1 .testimonial_text {
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 20px;
+  transition: ease-in-out all 0.3s;
+}
+.panel-testimonial1:hover .testimonial_text {
+  background-color: white;
+}
+.testimonial_text h1 {
+  margin-top: 95px;
+}
+/*
+** Testimonials on Mobile Devices 
+*/
+
+
+/*
+///////////////////////////////////////////////////
+Contact Form on the bottom of the page. 
+///////////////////////////////////////////////////
+*/
+
+.contact-section {
+  background-image: url('../img/cover/contacts-bottom_cover-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 70px 0px;
+}
+.contact-form_text p {
+  color: #b3b3b3;
+  font-family: "Montserrat-Light";
+}
+.contact-form_text h1 {
+  color: white;
+  font-family: "PlayfairDisplay-BlackItalic";
+  font-size: 65px;
+  margin-top: 10px;
+}
+
+.contact-form_inputs input{
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+.contact-form_inputs input:active{
+  outline: none;
+}
+.contact-form_inputs input:focus {
+  outline: none;
+}
+
+.contact-form_inputs textarea {
+  margin: 5px 0px;
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  resize: vertical;
+}
+.contact-form_inputs textarea:focus {
+  outline: none;
+}
+.contact-form_inputs textarea:active {
+  outline: none;
+}
+.contact-form_inputs button {
+  background-color: #d4145a;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+.contact-form_inputs button:active {
+  outline: none;
+}
+.contact-form_inputs button:focus {
+  outline: none;
+}
 
 
 /*
@@ -216,5 +352,35 @@ Responsive Part
     }
     .cover_text h1 {
       font-size: 40px;
+    }
+
+    /*    Second Section    */
+
+    .section-2_title {
+      padding-bottom: 20px;
+    }
+    .second_section {
+      text-align: center;
+    }
+    .second_section .col-md-4 {
+      margin-top: 30px;
+    }
+
+    /*    Testimonial Mobile    */
+
+    .section-3_title {
+      padding: 30px 0px;
+    }
+    .owl-theme .owl-controls .owl-page span {
+      display: block;
+      width: 12px;
+      height: 12px;
+      margin: 5px 7px;
+      filter: Alpha(Opacity=50);
+      opacity: 0.5;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      background: #f5cf3f !important;
     }
 }

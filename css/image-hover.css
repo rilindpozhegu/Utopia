@@ -1,0 +1,213 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('../fonts/Montserrat-Black.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+@font-face {
+  font-family: 'PlayfairDisplay-BlackItalic';
+  src: url('../fonts/PlayfairDisplay-BlackItalic.otf');
+ }
+ @font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('../fonts/PlayfairDisplay-Italic.otf');
+ }
+ @font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('../fonts/PlayfairDisplay-Regular.otf');
+ }
+
+.small-horizontal_padding {
+  padding: 0px 7px;
+}
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  background: #2a3249;
+  margin-top: 20px;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 3em;
+  text-align: left;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 0% 0 10px 0;
+  text-align: left;
+  font-family: "PlayfairDisplay-Italic";
+}
+
+.hovereffect .overlay:before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px,0,0);
+}
+
+.hidden-text {
+  padding-top: 33%;
+}
+
+.hidden-text h3 {
+  font-family: "Montserrat-Black";
+  font-size: 25px;
+}
+
+.hidden-text p {
+  font-size: 12px;
+}
+
+.hidden-text button {
+  background-color: #d4145a;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+/*Hover effect for small images on the homepage*/
+.small-image_hidden-text {
+  padding-top: 0px;
+}
+.hidden-text1 {
+  padding-top: 15%;
+}
+
+.hidden-text1 h3 {
+  font-family: "Montserrat-Black";
+  font-size: 20px;
+}
+
+.hidden-text p {
+  font-size: 10px;
+}
+
+.hidden-text button {
+  background-color: #d4145a;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  width: 80px;
+  height: 20px;
+  font-size: 12px;
+}
+
+.hovereffect a, .hovereffect .hidden-text {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+}
+
+.hovereffect:hover img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover .overlay:before,
+.hovereffect:hover a, .hovereffect:hover .hidden-text  {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .hidden-text {
+      padding-top: 12%;
+    }
+    .hidden-text h3 {
+      font-size: 18px;
+    }
+    .hidden-text p {
+      font-size: 8px;
+    }
+}
