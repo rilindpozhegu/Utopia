@@ -56,7 +56,7 @@ First Section Cover Image, Text, Button
 */
 
 .first_section {
-  background-image: url('../img/cover/home_cover-01.png');
+  background-image: url('../img/cover/services_cover-01.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
@@ -95,12 +95,12 @@ First Section Cover Image, Text, Button
 
 /*
 ///////////////////////////////////////////////////
-Sectond Section Icons + Text  2
+Sectond Section Title and Text + Button
 ///////////////////////////////////////////////////
 */
 
 
-.second_section {
+.services-second_section {
   padding: 40px 0px;
 }
 
@@ -117,32 +117,73 @@ Sectond Section Icons + Text  2
   color: #b3b3b3;
 }
 
-.second_section img {
-  width: 70px;
-}
-
 .second_section h4 {
   font-family: 'Montserrat-Black';
   color: #2a3249;
   font-size: 25px;
 }
-
-.second_section p {
+.section-2_text {
+  text-align: center;
+}
+.section-2_text p {
   font-family: "Montserrat-UltraLight";
   color: #808080;
-  font-size: 12px;
-  padding: 20px 0px;
+  font-size: 15px;
+  padding: 10px 0px;
 }
 
-.second_section button {
+.section-2_text button {
   background-color: #bc1f52;
   color: white;
   font-family: 'Montserrat-Regular';
   padding: 5px 10px;
-  width: 100px;
+  width: 150px;
   border: none;
   border-radius: 20px; 
+  margin-top: 30px;
 }
+
+/*
+///////////////////////////////////////////////////
+Images, icon, text + button
+///////////////////////////////////////////////////
+*/
+
+.section2-image img {
+  width: 100%;
+}
+
+
+.section2-text-etc {
+  padding: 30px 50px;
+}
+
+.section2-text-etc img{
+  width: 70px;
+}
+.section2-text-etc h4 {
+  font-family: 'Montserrat-Black';
+  color: #2a3249;
+  font-size: 25px;
+  opacity: 0.9;
+}
+.section2-text-etc p{
+  font-family: "Montserrat-UltraLight";
+  color: #808080;
+  font-size: 12px;
+}
+
+.section2-text-etc button {
+  background-color: #bc1f52;
+  color: white;
+  font-family: 'Montserrat-Regular';
+  padding: 5px 10px;
+  width: 150px;
+  border: none;
+  border-radius: 20px; 
+  margin-top: 30px;  
+}
+
 
 /*
 ///////////////////////////////////////////////////
@@ -152,11 +193,11 @@ Sectond Section Icons + Text  2
 
 
 .facts-section {
-  background-image: url('../img/cover/facts_cover-01.png');
+  /*background-image: url('../img/cover/facts_cover-01.png');*/
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  color: white;
+  color: #e6e6e6;
   padding: 90px 0px;
 }
 
@@ -172,99 +213,6 @@ Sectond Section Icons + Text  2
 .facts-section span {
   font-family: 'Montserrat-UltraLight';
 }
-
-
-
-/*
-///////////////////////////////////////////////////
-  Portfolio Section Homepage
-///////////////////////////////////////////////////
-*/
-.portfolio_section {
-  padding-bottom: 50px;
-}
-.portfolio-section_title {
-  padding: 60px 0px;
-  text-align: center;
-}
-
-.portfolio-section_title h1{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'PlayfairDisplay-Italic';
-  font-size: 45px;  
-}
-
-.portfolio-section_title p{
-  color: #b3b3b3;
-  font-size: 12px;
-  font-family: "Montserrat-UltraLight"; 
-}
-
-
-/*
-///////////////////////////////////////////////////
-  Testimonials Section Homepage
-///////////////////////////////////////////////////
-*/
-.testimonials_section {
-  padding: 60px 0px;
-  text-align: center;
-  background-color: #f2f2f2;
-}
-
-.testimonials_section h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'PlayfairDisplay-Italic';
-  font-size: 45px; 
-}
-.testimonials_section span {
-  color: #b3b3b3;  
-  font-family: "Montserrat-Light";
-}
-
-.testimonials_section p {
-  color: #b3b3b3;
-  font-size: 12px;
-  font-family: "Montserrat-UltraLight";
-}
-
-.horizontal_padding-testimonial {
-  padding: 0px 10px;
-  margin: 10px 0px;
-}
-.panel-testimonial1 img {
-  border-radius: 150px;
-  padding: 10px;
-  width: 250px;
-  margin-bottom: -120px;
-  background: transparent;
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(100%);
-  transition: ease-in-out 0.3s all;
-}
-.panel-testimonial1:hover img {
-    -webkit-filter: grayscale(0%);
-    background: white;
-}
-.panel-testimonial1 .testimonial_text {
-  border-radius: 20px;
-  background-color: transparent;
-  padding: 20px;
-  transition: ease-in-out all 0.3s;
-}
-.panel-testimonial1:hover .testimonial_text {
-  background-color: white;
-}
-.testimonial_text h1 {
-  margin-top: 95px;
-}
-/*
-** Testimonials on Mobile Devices 
-*/
-
-
 
 
 /*
@@ -288,42 +236,11 @@ Responsive Part
     .cover_text h1 {
       font-size: 40px;
     }
-
-    /*    Second Section    */
-
-    .section-2_title {
-      padding-bottom: 20px;
+    .section-2_text p {
+      padding: 10px 10px; 
+      font-size: 11px;
     }
-    .second_section {
-      text-align: center;
+    .section2-text-etc {
+      padding: 10px 10px;
     }
-    .second_section .col-md-4 {
-      margin-top: 30px;
-    }
-
-    /*    Testimonial Mobile    */
-
-    .section-3_title {
-      padding: 30px 0px;
-    }
-    .owl-theme .owl-controls .owl-page span {
-      display: block;
-      width: 12px;
-      height: 12px;
-      margin: 5px 7px;
-      filter: Alpha(Opacity=50);
-      opacity: 0.5;
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      border-radius: 20px;
-      background: #f5cf3f !important;
-    }
-
-    .contact-form_text p {
-      text-align: center;
-    }
-    .contact-form_text h1 {
-      font-size: 40px;
-      text-align: center;
-    }
-}
+  }

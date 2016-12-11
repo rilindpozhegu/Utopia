@@ -1,0 +1,94 @@
+/*
+///////////////////////////////////////////////////
+Contact Form on the bottom of the page. 
+///////////////////////////////////////////////////
+*/
+
+.contact-section {
+  background-image: url('../img/cover/contacts-bottom_cover-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 100px 0px;
+}
+.contact-form_text p {
+  color: #b3b3b3;
+  font-family: "Montserrat-Light";
+}
+.contact-form_text h1 {
+  color: white;
+  font-family: "PlayfairDisplay-BlackItalic";
+  font-size: 65px;
+  margin-top: 10px;
+}
+
+.contact-form_inputs input{
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+.contact-form_inputs input:active{
+  outline: none;
+}
+.contact-form_inputs input:focus {
+  outline: none;
+}
+
+.contact-form_inputs textarea {
+  margin: 5px 0px;
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  resize: vertical;
+}
+.contact-form_inputs textarea:focus {
+  outline: none;
+}
+.contact-form_inputs textarea:active {
+  outline: none;
+}
+.contact-form_inputs button {
+  background-color: #d4145a;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+.contact-form_inputs button:active {
+  outline: none;
+}
+.contact-form_inputs button:focus {
+  outline: none;
+}
+
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+  .contact-form_text {
+    text-align: center;
+  }
+  .contact-form_text h1 {
+    font-size: 50px;
+  }
+}

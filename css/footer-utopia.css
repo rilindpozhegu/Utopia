@@ -1,0 +1,34 @@
+.footer-section {
+	background-color: #bc1f52;
+	color: white;
+	padding: 20px 0px 13px;
+}
+
+.copywrite-section {
+	text-align: left;
+}
+
+.socialmedia-section {
+	text-align: right;
+}
+
+.socialmedia-section i {
+	padding: 0px 20px;
+}
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .socialmedia-section {
+	text-align: center;
+}
+}

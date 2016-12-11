@@ -85,8 +85,24 @@ html {
 
 
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
 
+.navbar-default .navbar-toggle {
+  border:none;
+}
 
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:active {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
 /*
 ** Navigationbar Edit collapsed on Desktop !
 */
@@ -136,4 +152,13 @@ Responsive Part
     .navbar-brand img {
         width: 100px;
     }
+
+    .top-nav-collapse {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 50px;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background-color: rgba(0, 0, 0, 0.86);
+  text-align: center;
+}
 }
