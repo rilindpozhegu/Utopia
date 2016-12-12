@@ -1,0 +1,172 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('../fonts/Montserrat-Black.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+@font-face {
+  font-family: 'PlayfairDisplay-BlackItalic';
+  src: url('../fonts/PlayfairDisplay-BlackItalic.otf');
+ }
+ @font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('../fonts/PlayfairDisplay-Italic.otf');
+ }
+ @font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('../fonts/PlayfairDisplay-Regular.otf');
+ }
+
+.small-horizontal_padding {
+  padding: 0px 7px;
+}
+
+.no-pading {
+  padding: 0px;
+}
+
+/*
+///////////////////////////////////////////////////
+Map Section 
+///////////////////////////////////////////////////
+*/
+
+.map-seciton {
+  padding-top: 6.3%;
+}
+
+/*dont Scroll the map*/
+.maps iframe{
+    pointer-events: none;
+}
+
+.colored-nav {
+  background-color: #2a3249;
+}
+
+/*
+///////////////////////////////////////////////////
+Title and contact inputs  
+///////////////////////////////////////////////////
+*/
+.upper-grid {
+  text-align: center;
+  background-color: white; 
+  margin-top: -60px;
+  border-radius: 90px;
+  padding: 20px 0px;
+}
+
+.upper-grid p {
+    font-family: "Montserrat-UltraLight";
+    color: #808080;
+    font-size: 12px;
+}
+.upper-grid h1{
+  font-family: 'PlayfairDisplay-Italic';
+  font-size: 45px;
+} 
+
+/*
+** Input Section on the bootom of the page//
+*/
+
+.input-grid {
+  text-align: center;
+  padding-bottom: 40px; 
+}
+.input-grid input {
+  border: solid 2px #cccccc;
+  width: 100%;
+  margin: 7px 0px;
+  padding: 10px;
+  color: #cccccc;
+}
+.input-grid input:focus {
+  outline: none;
+}
+.input-grid input:active {
+  outline: none;
+}
+.input-grid textarea {
+  width: 100%;
+  border: solid 2px #cccccc;
+  padding: 10px;
+  color: #cccccc;
+  resize: vertical;
+}
+.input-grid textarea:focus {
+  outline: none;
+}
+.input-grid textarea:active {
+  outline: none;
+}
+
+.submit-grid {
+  text-align: left;
+}
+
+.input-grid button {
+  background-color: #bc1f52;
+  color: white;
+  font-family: 'Montserrat-Regular';
+  padding: 5px 10px;
+  width: 120px;
+  border: none;
+  border-radius: 10px; 
+  height: 35px;
+  margin-top: 20px;
+}
+.input-grid button:focus {
+  outline: none;
+}
+.input-grid button:active {
+  outline: none;
+}
+
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .submit-grid {
+        text-align: center;
+  }
