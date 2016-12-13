@@ -155,7 +155,7 @@ Images, icon, text + button
 
 
 .section2-text-etc {
-  padding: 30px 50px;
+  padding: 10px 50px;
 }
 
 .section2-text-etc img{
@@ -170,7 +170,7 @@ Images, icon, text + button
 .section2-text-etc p{
   font-family: "Montserrat-UltraLight";
   color: #808080;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .section2-text-etc button {

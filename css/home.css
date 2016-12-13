@@ -318,7 +318,9 @@ Responsive Part
       border-radius: 20px;
       background: #f5cf3f !important;
     }
-
+    .horizontal_padding-testimonial {
+      padding: 10px 30px;
+    }
     .contact-form_text p {
       text-align: center;
     }

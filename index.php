@@ -54,7 +54,7 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll active" href="#about">HOME</a>
+                        <a class="page-scroll active1" href="index.php">HOME</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="services.html">SERVICES</a>
@@ -63,7 +63,7 @@
                         <a class="#" href="portfolio.html">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="statistics.html">STATISTICS</a>
+                        <a class="page-scroll" href="#statistics1">STATISTICS</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="contact.html">CONTACT</a>
@@ -85,10 +85,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 cover_text">
-                    <p>NOVEMBER 2016</p>
-                    <h1>Corporate <br> Event in Dubai</h1>
-                    <p>NEED AN EVENT ORGANISED?</p>
-                    <button>CONTACT</button>
+                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">NOVEMBER 2016</p>
+                    <h1 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">Corporate <br> Event in Dubai</h1>
+                    <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">NEED AN EVENT ORGANISED?</p>
+                    <button class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">CONTACT</button>
                 </div>
             </div>
         </div>
@@ -103,26 +103,26 @@
         <div class="container">
             <div class="row">
             <div class="col-md-12 section-2_title">
-                <p>ABOUT US</p>
-                <h1>What We Do</h1>
+                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">ABOUT US</p>
+                <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">What We Do</h1>
             </div>
                 <div class="col-md-4">
-                    <img src="img/icon-1_utopia-01.png">
-                    <h4>Product Launch</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                    <button>More</button>
+                    <img src="img/icon-1_utopia-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Product Launch</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                    <button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">More</button>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/icon-2_utopia-01.png">
-                    <h4>Conferences</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                    <button>More</button>
+                    <img src="img/icon-2_utopia-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Conferences</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                    <button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">More</button>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/icon-3_utopia-01.png">
-                    <h4>Ceremony</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                    <button>More</button>
+                    <img src="img/icon-3_utopia-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Ceremony</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                    <button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">More</button>
                 </div>
             </div>
         </div>
@@ -130,27 +130,27 @@
 
 
     <!-- Facts Section -->
-    <section class="facts-section">
+    <section class="facts-section" id="statistics1">
         <div class="container">
             <div>
-                <img src="img/facts-logo-01.png">
+                <img src="img/facts-logo-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
             </div>
-            <div class="col-md-3 col-xs-6  wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-3 col-xs-6  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                 <h1 id="target"></h1>
                 <!-- <p>projects</p> -->
                 <span>STATISTIC</span>
             </div>
-            <div class="col-md-3 col-xs-6  wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-3 col-xs-6  wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s">
                 <h1 id="clients"></h1>
                 <!-- <p>clients</p> -->
                 <span>STATISTIC</span>
             </div>
-            <div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                 <h1 id="countries"></h1>
                 <!-- <p>countries</p> -->
                 <span>STATISTIC</span>
             </div>
-            <div class="col-md-3 col-xs-6 wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-3 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s">
                 <h1 id="coffe"></h1>
                 <!-- <p>coffee</p> -->
                 <span>STATISTIC</span>
@@ -161,12 +161,12 @@
 <div class="clearfix"></div>
 
 <!-- Portfolio -->
-<section class="portfolio_section">
+<section class="portfolio_section wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
     <div class="container">
         <div class="row">            
             <div class="col-md-12 portfolio-section_title">
-                <p>OUR CLIENT</p>
-                <h1>Portfolio</h1>
+                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">OUR CLIENT</p>
+                <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">Portfolio</h1>
             </div>
             <div class="col-md-5">
                 <div class="hovereffect">
@@ -260,10 +260,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-3_title">
-                <p>OUR CLIENT</p>
-                <h1>Testimonials</h1>
+                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">OUR CLIENT</p>
+                <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">Testimonials</h1>
             </div> 
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
                         <img src="img/testimonial_avatar-01.png">
@@ -275,7 +275,7 @@
                     </div>
                 </div>
             </div> 
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
                         <img src="img/testimonial_avatar-01.png">
@@ -287,7 +287,7 @@
                     </div>
                 </div>
             </div>          
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
                         <img src="img/testimonial_avatar-01.png">
@@ -306,7 +306,7 @@
 <div class="clearfix"></div>
 
 <!-- Testimonials only on mobile devices -->
-      <div id="demo" class="desktop-d-n blog-mobile-part testimonials_section">
+      <div id="demo" class="desktop-d-n blog-mobile-part testimonials_section wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
         <div class="container">
           <div class="row">
             <div class="col-md-12 section-3_title">
@@ -329,7 +329,7 @@
                         </div>  
                     </div>
 
-                    <div class="item item-mobile">               
+<!--                     <div class="item item-mobile">               
                         <div class="horizontal_padding-testimonial">
                             <div class="panel-testimonial1">
                                 <img src="img/testimonial_avatar-01.png">
@@ -354,7 +354,7 @@
                             </div>
                         </div>  
                     </div>
-
+ -->
                 </div>  
             </div>
           </div>
@@ -367,21 +367,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 contact-form_text">
-                <p>HURRY UP</p>
-                <h1>Get a <br> Quote Now</h1>
+                <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">HURRY UP</p>
+                <h1 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".8s"">Get a <br> Quote Now</h1>
             </div>
             <div class="col-md-7 contact-form_inputs">
-                <div class="col-md-6 small-horizontal_padding">
+                <div class="col-md-6 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
                     <input type="text" name="" placeholder="Your Name">
                 </div>
-                <div class="col-md-6 small-horizontal_padding">
+                <div class="col-md-6 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
                     <input type="text" name="" placeholder="Your Email">
                 </div>
-                <div class="col-md-12 small-horizontal_padding">
+                <div class="col-md-12 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
                     <textarea name="" placeholder="Your Message" type="text" rows="6"></textarea>
                 </div>
                 <div class="col-md-12 small-horizontal_padding">
-                    <button>Submit</button>
+                    <button class="wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">Submit</button>
                 </div>
             </div>
         </div>
@@ -393,17 +393,18 @@
 
 <footer class="container-fluid footer-section">
     <div class="container">
-        <div class="col-md-6 copywrite-section mobile-d-n">
+        <div class="col-md-6 copywrite-section mobile-d-n  wow zoomIn" data-wow-duration="1s" data-wow-delay=".8s" aria-hidden="true">
             <a href="http://emiratesgraphic.com/" style="text-decoration: none; color: white;"><p>Copywright by Emirates Graphic</p></a>
         </div>
         <div class="col-md-6 socialmedia-section">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-pinterest" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-facebook wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true"></i>
+            <i class="fa fa-twitter wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
+            <i class="fa fa-pinterest wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
+            <i class="fa fa-instagram wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
         </div>
     </div>
 </footer>
+
 
 
     <!-- jQuery -->

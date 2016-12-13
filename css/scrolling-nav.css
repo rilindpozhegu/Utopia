@@ -54,7 +54,7 @@ html {
     height: 100%;
 }
 
-.active {
+.active1 {
     opacity: 1;
     color: white;
     border: solid 1px rgba(255, 255, 255, 0.19);
@@ -116,7 +116,7 @@ html {
 ** Navigationbar fixed height
 */
 
-@media(min-width:767px) {
+@media(min-width:844px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .3s ease-in-out,padding .3s ease-in-out;
@@ -128,9 +128,15 @@ html {
         padding: 0;
     }
 }
-
-
-
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:active {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent;
+}
 /*
 ///////////////////////////////////////////////////
 Responsive Part 

@@ -210,3 +210,7 @@ Responsive Part
     .cover_text h1 {
       font-size: 40px;
     }
+    .horizontal_padding-testimonial {
+      padding: 10px 10px;
+    }
+  }

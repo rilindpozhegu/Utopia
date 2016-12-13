@@ -141,3 +141,32 @@ Sectond Section Title and Text + Button
   border-radius: 20px; 
   margin-top: 30px;
 }
+
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .cover_text h1 {
+      font-size: 40px;
+    }
+    .section-2_text {
+      padding: 20px 10px;
+    }
+    .section-2_text p {
+      font-size: 11px;
+    }
+}
