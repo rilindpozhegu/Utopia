@@ -107,22 +107,45 @@
                 <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">What We Do</h1>
             </div>
                 <div class="col-md-4">
-                    <img src="img/icon-1_utopia-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Product Launch</h4>
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Venue Sourcing</h4>
                     <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                    <button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">More</button>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/icon-2_utopia-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Conferences</h4>
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Catering</h4>
                     <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                    <button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">More</button>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/icon-3_utopia-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Ceremony</h4>
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Design & Staging</h4>
                     <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                    <button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">More</button>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Hospitality</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Decoration</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">AV & Lightings</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Event Permits</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Logistics</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Exhibitions Standsz</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                </div>
+                <div class="col-md-12" style="text-align: center;">                    
+                    <button class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">More</button>
                 </div>
             </div>
         </div>
@@ -329,7 +352,7 @@
                         </div>  
                     </div>
 
-<!--                     <div class="item item-mobile">               
+                    <div class="item item-mobile">               
                         <div class="horizontal_padding-testimonial">
                             <div class="panel-testimonial1">
                                 <img src="img/testimonial_avatar-01.png">
@@ -354,7 +377,7 @@
                             </div>
                         </div>  
                     </div>
- -->
+
                 </div>  
             </div>
           </div>
