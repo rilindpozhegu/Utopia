@@ -62,6 +62,7 @@ First Section Cover Image, Text, Button
   height: auto;
   padding: 200px 0px 170px;
   background-position: 30% 0%;
+  background-attachment: fixed;
 }
 
 .cover_text {
@@ -141,6 +142,74 @@ Sectond Section Title and Text + Button
   border-radius: 20px; 
   margin-top: 30px;
 }
+
+
+
+
+
+
+/*
+///////////////////////////////////////////////////
+Portfolio Inner 5 Pages 
+///////////////////////////////////////////////////
+*/
+
+.portfolio_cover1{
+  background-image: url('../img/cover/portfolio_cover1-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 200px 0px 170px;
+  background-position: 30% 0%;
+  background-attachment: fixed;
+}
+
+.portfolio_cover2{
+  background-image: url('../img/cover/portfolio_cover2-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 200px 0px 170px;
+  background-position: 30% 0%;
+  background-attachment: fixed;
+}
+
+.portfolio_cover3{
+  background-image: url('../img/cover/portfolio_cover3-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 200px 0px 170px;
+  background-position: 30% 0%;
+  background-attachment: fixed;
+}
+
+.portfolio_cover4{
+  background-image: url('../img/cover/portfolio_cover4-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 200px 0px 170px;
+  background-position: 30% 0%;
+  background-attachment: fixed;
+}
+
+.portfolio_cover5{
+  background-image: url('../img/cover/portfolio_cover5-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 200px 0px 170px;
+  background-position: 30% 0%;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
 
 /*
 ///////////////////////////////////////////////////

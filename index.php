@@ -30,9 +30,22 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
 
+    <!-- Preloader -->
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Preloader -->
+    <div id="overlay">
+        <!-- <img src="img/logo-elisa1.png" > -->
+        <div class="center-preloader">
+            <div class="object" id="object_four"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_one"></div>
+        </div>
+    </div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -85,10 +98,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 cover_text">
-                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">NOVEMBER 2016</p>
+                    <!-- <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">NOVEMBER 2016</p> -->
                     <h1 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">Corporate <br> Event in Dubai</h1>
-                    <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">NEED AN EVENT ORGANISED?</p>
-                    <button class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">CONTACT</button>
+                    <!-- <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">NEED AN EVENT ORGANISED?</p> -->
+                    <a href="contact.html"><button class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">CONTACT</button></a>
                 </div>
             </div>
         </div>
@@ -99,53 +112,34 @@
 
 
     <!-- Second Secton of Homepage -->
+        <!-- Second Secton of Homepage -->
     <section class="second_section">
         <div class="container">
             <div class="row">
             <div class="col-md-12 section-2_title">
-                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">ABOUT US</p>
+                <!-- <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">ABOUT US</p> -->
                 <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">What We Do</h1>
             </div>
                 <div class="col-md-4">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Venue Sourcing</h4>
-                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                    <img src="img/icon-1_utopia-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Product Launch</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Launching a new product is tantamount to creating a new legacy for a company. Product launch events must convey the excitement, importance, and optimism of innovation to the world. Utopia ensures that all the elements are in place, in order to make sure that the launch event is effective and impactful.</p>
+                    <!-- <a href="services.html#services1"><button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">View All Services</button></a> -->
                 </div>
                 <div class="col-md-4">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Catering</h4>
-                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                    <img src="img/icon-2_utopia-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Conferences</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Marketing, acquiring the right audience, sponsorship sales, engaging content, first-class production, and dynamic speakers, all play a part. Our team combines all of these elements, ensuring your conference captures the interest and attention of your audience, while delivering the right content in a meaningful and engaging way.</p>
+                    <!-- <a href="services.html#services2"><button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">View All Services</button></a> -->
                 </div>
                 <div class="col-md-4">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Design & Staging</h4>
-                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                    <img src="img/icon-3_utopia-01.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Ceremony</h4>
+                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Ceremonies can range from an intimate gathering to an enormous event with thousands of people. When planning a ceremony, the development and delivery of the message has to be done with precision, so that the client can meet their objective. It takes expert production, talent management, innovation, and sensitivity to create a meaningful event that will help you achieve your goals.</p>
+                    <!-- <a href="services.html#services3"><button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">View All Services</button></a> -->
                 </div>
-                <div class="clearfix"></div>
-                <div class="col-md-4">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Hospitality</h4>
-                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Decoration</h4>
-                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">AV & Lightings</h4>
-                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-md-4">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Event Permits</h4>
-                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Logistics</h4>
-                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">Exhibitions Standsz</h4>
-                    <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".9s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                </div>
-                <div class="col-md-12" style="text-align: center;">                    
-                    <button class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">More</button>
+                <div class="col-md-12" style="text-align: center;">
+                    <a href="services.html#services3"><button class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.1s">View All Services</button></a>
                 </div>
             </div>
         </div>
@@ -182,97 +176,95 @@
     </section>
 
 <div class="clearfix"></div>
-
-<!-- Portfolio -->
-<section class="portfolio_section wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+<!-- About Utopia -->
+<section class="services-second_section">
     <div class="container">
-        <div class="row">            
-            <div class="col-md-12 portfolio-section_title">
-                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">OUR CLIENT</p>
-                <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">Portfolio</h1>
+        <div class="row">
+            <div class="col-md-12 section-2_title">
+                <!-- <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">ABOUT US</p> -->
+                <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">About Utopia</h1>
             </div>
-            <div class="col-md-5">
+            <div class="section-2_text wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
+                <p>Utopia was founded by industry experts who specialize in creating Innovative, sophisticated and cutting edge events. With over 10 years of experience under our belt, Utopia has developed extensive knowledge and understanding of event creation, art and hospitality; which lives up to our reputation for creating truly unforgettable mo- ments. As a company we are storytellers. We believe that the experi- ence of every event has a major impact on the guests and it is our mission and promise to ensure that each and every event is thoughtfully produced and curated to create a moment that will leave a life-long impression.</p>
+                <!-- <a href="contact.html"><button  class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">Contact</button></a> -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio -->
+<section class="portfolio_section">
+    <div class="container">
+        <div class="row"> 
+            <div class="col-md-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="img/galery-big_image-01.png" alt="">
+                    <img class="img-responsive" src="img/portfolio1-01.png" alt="">
                         <div class="overlay">
                             <h2>Product Launch</h2>
                             <div class="hidden-text">
-                                <h3>Emirates Graphics</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                                <button>More</button>
+                                <h3>Utopia</h3>
+                                <p>Utopia proudly designed and managed the inauguration of McWane’s newest valve, fitting and plumbing manufacturing plant in Abu Dhabi. The opening of the US$28 million facility firmly establishes McWane’s regional presence in the Middle East. McWane Inc. is one of the largest privately-owned companies in the USA, with more than 6,000 employees worldwide.</p>
+                                <a href="more_portfolio-1.html"><button>More</button></a>
                             </div> 
                         </div>
                 </div>
             </div>
-            <div class="col-md-5 desktop-d-n">
-                <div class="hovereffect">
-                    <img class="img-responsive" src="img/galery-big_image-01.png" alt="">
-                        <div class="overlay">
-                            <h2>Product Launch</h2>
-                            <div class="hidden-text">
-                                <h3>Emirates Graphics</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                                <button>More</button>
-                            </div> 
-                        </div>
-                </div>
-            </div>
-
-            <div class="col-md-7 mobile-d-n">
+            <div class="col-md-7 mobile-d-n  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="col-md-6">
                     <div class="hovereffect hovereffect2">
-                        <img class="img-responsive" src="img/galery1_image-01.png" alt="">
+                        <img class="img-responsive" src="img/portfolio2-01.png" alt="">
                             <div class="overlay">
                                 <h2>Product Launch</h2>
                                 <div class="hidden-text small-image_hidden-text">
-                                    <h3>Emirates Graphics</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-                                    <button>More</button>
+                                    <h3>Utopia</h3>
+                                    <p>Utopia designed, managed and produced the 2016 Annual Awards Night ...</p>
+                                    <a href="more_portfolio-2.html"><button>More</button></a>
                                 </div> 
                             </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="hovereffect hovereffect2">
-                        <img class="img-responsive" src="img/galery2_image-01.png" alt="">
+                        <img class="img-responsive" src="img/portfolio3-01.png" alt="">
                             <div class="overlay">
                                 <h2>Product Launch</h2>
                                 <div class="hidden-text small-image_hidden-text">
-                                    <h3>Emirates Graphics</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-                                    <button>More</button>
+                                    <h3>Utopia</h3>
+                                    <p>Utopia were appointed to help create a magical evening for over 250 Top VIP guests at</p>
+                                    <a href="more_portfolio-3.html"><button>More</button></a>
                                 </div> 
                             </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="hovereffect hovereffect2">
-                        <img class="img-responsive" src="img/galery3_image-01.png" alt="">
+                        <img class="img-responsive" src="img/portfolio4-01.png" alt="">
                             <div class="overlay">
                                 <h2>Product Launch</h2>
                                 <div class="hidden-text small-image_hidden-text">
-                                    <h3>Emirates Graphics</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-                                    <button>More</button>
+                                    <h3>Utopia</h3>
+                                    <p>Utopia were fortunate to be awarded the contract from a top consultancy firm in the UAE...</p>
+                                    <a href="more_portfolio-4.html"><button>More</button></a>
                                 </div> 
                             </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="hovereffect hovereffect2">
-                        <img class="img-responsive" src="img/galery4_image-01.png" alt="">
+                        <img class="img-responsive" src="img/portfolio5-01.png" alt="">
                             <div class="overlay">
                                 <h2>Product Launch</h2>
                                 <div class="hidden-text small-image_hidden-text">
-                                    <h3>Emirates Graphics</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-                                    <button>More</button>
+                                    <h3>Utopia</h3>
+                                    <p>Utopia was approached for the third year running to assist one of the leading </p>
+                                    <a href="more_portfolio-5.html"><button>More</button></a>
                                 </div> 
                             </div>
                     </div>
                 </div>
 
             </div>
+
+            </div>   
         </div>
     </div>
 </section>
@@ -283,7 +275,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-3_title">
-                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">OUR CLIENT</p>
+                <!-- <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">OUR CLIENT</p> -->
                 <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">Testimonials</h1>
             </div> 
             <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
@@ -291,9 +283,9 @@
                     <div class="panel-testimonial1">
                         <img src="img/testimonial_avatar-01.png">
                         <div class="row testimonial_text">
-                        <h1>Eric Willson</h1>
+                        <h1>Keaton Flynn</h1>
                         <span>ENTREPRENEUR</span>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                        <p>"Great job on the ceremony! We've had many compliments from our attendees. The guests commented on how stunning the room looked and our keynote speaker was impressed with the timing and the prompt wrap-up. It was a pleasure working with Utopia!"</p>
                         </div>
                     </div>
                 </div>
@@ -303,9 +295,9 @@
                     <div class="panel-testimonial1">
                         <img src="img/testimonial_avatar-01.png">
                         <div class="row testimonial_text">
-                        <h1>Eric Willson</h1>
+                        <h1>Trent Burch</h1>
                         <span>ENTREPRENEUR</span>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                        <p>"I don’t know how to thank you and your team enough in a way that will genuinely express the way I feel about how well we all worked together. The meeting was flawless. You were unflappable. And you and your team made magic happen against all odds ! "</p>
                         </div>
                     </div>
                 </div>
@@ -315,9 +307,9 @@
                     <div class="panel-testimonial1">
                         <img src="img/testimonial_avatar-01.png">
                         <div class="row testimonial_text">
-                        <h1>Eric Willson</h1>
+                        <h1>Naomi Cruz</h1>
                         <span>ENTREPRENEUR</span>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                        <p>“We select Utopia as our production partner for our most important events. the team was astounding in their process and execution….’Wow’ doesn't begin to describe the audience reaction. We return to them project after project…To this day I am extremely grateful that I called them.”</p>
                         </div>
                     </div>
                 </div>
@@ -344,9 +336,9 @@
                             <div class="panel-testimonial1">
                                 <img src="img/testimonial_avatar-01.png">
                                 <div class="row testimonial_text">
-                                <h1>Eric Willson</h1>
+                                <h1>Keaton Flynn</h1>
                                 <span>ENTREPRENEUR</span>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                                <p>"Great job on the ceremony! We've had many compliments from our attendees. The guests commented on how stunning the room looked and our keynote speaker was impressed with the timing and the prompt wrap-up. It was a pleasure working with Utopia!"</p>
                                 </div>
                             </div>
                         </div>  
@@ -357,9 +349,9 @@
                             <div class="panel-testimonial1">
                                 <img src="img/testimonial_avatar-01.png">
                                 <div class="row testimonial_text">
-                                <h1>Eric Willson</h1>
+                                <h1>Trent Burch</h1>
                                 <span>ENTREPRENEUR</span>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                                <p>"I don’t know how to thank you and your team enough in a way that will genuinely express the way I feel about how well we all worked together. The meeting was flawless. You were unflappable. And you and your team made magic happen against all odds ! "</p>
                                 </div>
                             </div>
                         </div>  
@@ -370,9 +362,9 @@
                             <div class="panel-testimonial1">
                                 <img src="img/testimonial_avatar-01.png">
                                 <div class="row testimonial_text">
-                                <h1>Eric Willson</h1>
+                                <h1>Naomi Cruz</h1>
                                 <span>ENTREPRENEUR</span>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                                <p>“We select Utopia as our production partner for our most important events. the team was astounding in their process and execution….’Wow’ doesn't begin to describe the audience reaction. We return to them project after project…To this day I am extremely grateful that I called them.”</p>
                                 </div>
                             </div>
                         </div>  
@@ -456,6 +448,9 @@
 
     <!-- font Awesome Script -->
     <script src="https://use.fontawesome.com/8af4718d5e.js"></script>
+
+    <!-- Preloader -->
+    <script type="text/javascript" src="js/preloader.js"></script>
 </body>
 
 </html>

@@ -62,6 +62,7 @@ First Section Cover Image, Text, Button
   height: auto;
   padding: 200px 0px 170px;
   background-position: 30% 0%;
+  background-attachment: fixed;
 }
 
 .cover_text {
@@ -155,7 +156,10 @@ Images, icon, text + button
 
 
 .section2-text-etc {
-  padding: 10px 50px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
 }
 
 .section2-text-etc img{
@@ -184,6 +188,9 @@ Images, icon, text + button
   margin-top: 30px;  
 }
 
+.services_section3-text p{
+  font-size: 20px;
+}
 
 /*
 ///////////////////////////////////////////////////
@@ -193,11 +200,11 @@ Images, icon, text + button
 
 
 .facts-section {
-  /*background-image: url('../img/cover/facts_cover-01.png');*/
+  background-image: url('../img/cover/facts_cover-01.png');
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  color: #e6e6e6;
+  color: white;
   padding: 90px 0px;
 }
 
@@ -212,6 +219,85 @@ Images, icon, text + button
 
 .facts-section span {
   font-family: 'Montserrat-UltraLight';
+}
+/*
+///////////////////////////////////////////////////
+Title and contact inputs  
+///////////////////////////////////////////////////
+*/
+.upper-grid {
+  text-align: center;
+  background-color: white; /*
+  margin-top: -60px;*/
+  border-radius: 90px;
+  padding: 20px 0px;
+}
+
+.upper-grid p {
+    font-family: "Montserrat-UltraLight";
+    color: #808080;
+    font-size: 12px;
+}
+.upper-grid h1{
+  font-family: 'PlayfairDisplay-Italic';
+  font-size: 45px;
+} 
+
+/*
+** Input Section on the bootom of the page//
+*/
+
+.input-grid {
+  text-align: center;
+  padding-bottom: 40px; 
+}
+.input-grid input {
+  border: solid 2px #cccccc;
+  width: 100%;
+  margin: 7px 0px;
+  padding: 10px;
+  color: #cccccc;
+}
+.input-grid input:focus {
+  outline: none;
+}
+.input-grid input:active {
+  outline: none;
+}
+.input-grid textarea {
+  width: 100%;
+  border: solid 2px #cccccc;
+  padding: 10px;
+  color: #cccccc;
+  resize: vertical;
+}
+.input-grid textarea:focus {
+  outline: none;
+}
+.input-grid textarea:active {
+  outline: none;
+}
+
+.submit-grid {
+  text-align: left;
+}
+
+.input-grid button {
+  background-color: #bc1f52;
+  color: white;
+  font-family: 'Montserrat-Regular';
+  padding: 5px 10px;
+  width: 120px;
+  border: none;
+  border-radius: 10px; 
+  height: 35px;
+  margin-top: 20px;
+}
+.input-grid button:focus {
+  outline: none;
+}
+.input-grid button:active {
+  outline: none;
 }
 
 
