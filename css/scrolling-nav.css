@@ -54,12 +54,6 @@ html {
     height: 100%;
 }
 
-.active1 {
-    opacity: 1;
-    color: white;
-    border: solid 1px rgba(255, 255, 255, 0.19);
-}
-
 button:active {
   outline: none !important;
 }
@@ -80,14 +74,19 @@ button: focus {
     }
 
 .navbar-nav li a {
-    color: white !important;
+    color: rgba(231, 231, 231, 0.87) !important;
     font-family: 'Montserrat-Black';
     font-size: 11px;
     padding: 5px 10px;
     margin-top: 20px;
-    opacity: 0.8;
+    opacity: 0.9;
+    transition: ease 0.1s all; 
 }
 
+.navbar-nav li a:hover {
+    opacity: 1;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.59);  
+}
 
 
 

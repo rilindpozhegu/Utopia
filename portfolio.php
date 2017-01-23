@@ -46,49 +46,9 @@
             <div class="object" id="object_one"></div>
         </div>
     </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/utopia_logo-01.png"></a>
-            </div>
+   <!-- Navigation -->
+    <?php include 'navigationbar.php';?>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.php">HOME</a>
-                    </li>
-                    <li>
-                        <a class="#" href="services.html">SERVICES</a>
-                    </li>
-                    <li>
-                        <a class="active1" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.php#statistics1">STATISTICS</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="contact.html">CONTACT</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="testimonials.html">TESTIMONIALS</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
 
 
@@ -109,7 +69,7 @@
 
 <!-- About us Section on the services page -->
 
-<section class="services-second_section">
+<!-- <section class="services-second_section">
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-2_title">
@@ -123,7 +83,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <div class="clearfix"></div>
 
 
@@ -131,29 +91,42 @@
 <section class="portfolio_section">
     <div class="container">
         <div class="row"> 
-            <div class="col-md-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="col-md-5 wow fadeInUp mobile-d-n" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/portfolio1-01.png" alt="">
                         <div class="overlay">
-                            <h2>Product Launch</h2>
+                            <!-- <h2>Product Launch</h2> -->
                             <div class="hidden-text">
                                 <h3>Utopia</h3>
-                                <p>Utopia proudly designed and managed the inauguration of McWane’s newest valve, fitting and plumbing manufacturing plant in Abu Dhabi. The opening of the US$28 million facility firmly establishes McWane’s regional presence in the Middle East. McWane Inc. is one of the largest privately-owned companies in the USA, with more than 6,000 employees worldwide.</p>
-                                <a href="more_portfolio-1.html"><button>More</button></a>
+                                <p>Utopia proudly designed and managed the inauguration of McWane’s newest valve, fitting and plumbing manufacturing plant in Abu Dhabi. The opening of the US$28 million facility firmly establishes McWane’s regional presence in the Middle East.</p>
+                                <a href="more_portfolio-1"><button>More</button></a>
                             </div> 
                         </div>
                 </div>
             </div>
-            <div class="col-md-7 mobile-d-n  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="col-md-7 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="col-md-6 desktop-d-n">
+                    <div class="hovereffect hovereffect2">
+                        <img class="img-responsive" src="img/mcwane-gulf-13.jpg" alt="">
+                            <div class="overlay">
+                                <!-- <h2>Product Launch</h2> -->
+                                <div class="hidden-text">
+                                <h3>Utopia</h3>
+                                <p>Utopia proudly designed and managed the inauguration of McWane’s newest valve, fitting and plumbing manufacturing plant in Abu Dhabi. The opening of the US$28 million facility firmly establishes McWane’s regional presence in the Middle East.</p>
+                                <a href="more_portfolio-1"><button>More</button></a>
+                            </div> 
+                            </div>
+                    </div>
+                </div>
                 <div class="col-md-6">
                     <div class="hovereffect hovereffect2">
                         <img class="img-responsive" src="img/portfolio2-01.png" alt="">
                             <div class="overlay">
-                                <h2>Product Launch</h2>
+                                <!-- <h2>Product Launch</h2> -->
                                 <div class="hidden-text small-image_hidden-text">
                                     <h3>Utopia</h3>
                                     <p>Utopia designed, managed and produced the 2016 Annual Awards Night ...</p>
-                                    <a href="more_portfolio-2.html"><button>More</button></a>
+                                    <a href="more_portfolio-2"><button>More</button></a>
                                 </div> 
                             </div>
                     </div>
@@ -162,11 +135,11 @@
                     <div class="hovereffect hovereffect2">
                         <img class="img-responsive" src="img/portfolio3-01.png" alt="">
                             <div class="overlay">
-                                <h2>Product Launch</h2>
+                                <!-- <h2>Product Launch</h2> -->
                                 <div class="hidden-text small-image_hidden-text">
                                     <h3>Utopia</h3>
                                     <p>Utopia were appointed to help create a magical evening for over 250 Top VIP guests at</p>
-                                    <a href="more_portfolio-3.html"><button>More</button></a>
+                                    <a href="more_portfolio-3"><button>More</button></a>
                                 </div> 
                             </div>
                     </div>
@@ -175,11 +148,11 @@
                     <div class="hovereffect hovereffect2">
                         <img class="img-responsive" src="img/portfolio4-01.png" alt="">
                             <div class="overlay">
-                                <h2>Product Launch</h2>
+                                <!-- <h2>Product Launch</h2> -->
                                 <div class="hidden-text small-image_hidden-text">
                                     <h3>Utopia</h3>
                                     <p>Utopia were fortunate to be awarded the contract from a top consultancy firm in the UAE...</p>
-                                    <a href="more_portfolio-4.html"><button>More</button></a>
+                                    <a href="more_portfolio-4"><button>More</button></a>
                                 </div> 
                             </div>
                     </div>
@@ -188,11 +161,11 @@
                     <div class="hovereffect hovereffect2">
                         <img class="img-responsive" src="img/portfolio5-01.png" alt="">
                             <div class="overlay">
-                                <h2>Product Launch</h2>
+                                <!-- <h2>Product Launch</h2> -->
                                 <div class="hidden-text small-image_hidden-text">
                                     <h3>Utopia</h3>
                                     <p>Utopia was approached for the third year running to assist one of the leading </p>
-                                    <a href="more_portfolio-5.html"><button>More</button></a>
+                                    <a href="more_portfolio-5"><button>More</button></a>
                                 </div> 
                             </div>
                     </div>
@@ -209,46 +182,14 @@
 
 
 <!-- Contact section on the footer of the page -->
-<section class="contact-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 contact-form_text">
-                <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">HURRY UP</p>
-                <h1 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".8s"">Get a <br> Quote Now</h1>
-            </div>
-            <div class="col-md-7 contact-form_inputs">
-                <div class="col-md-6 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
-                    <input type="text" name="" placeholder="Your Name">
-                </div>
-                <div class="col-md-6 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
-                    <input type="text" name="" placeholder="Your Email">
-                </div>
-                <div class="col-md-12 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
-                    <textarea name="" placeholder="Your Message" type="text" rows="6"></textarea>
-                </div>
-                <div class="col-md-12 small-horizontal_padding">
-                    <button class="wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">Submit</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+    <?php include 'get_free_quote.php';?>
+
+
 
 <!-- Footer on all the pages -->
+    <?php include 'footer_all.php';?>
 
-<footer class="container-fluid footer-section">
-    <div class="container">
-        <div class="col-md-6 copywrite-section mobile-d-n  wow zoomIn" data-wow-duration="1s" data-wow-delay=".8s" aria-hidden="true">
-            <a href="http://emiratesgraphic.com/" style="text-decoration: none; color: white;"><p>Copywright by Emirates Graphic</p></a>
-        </div>
-        <div class="col-md-6 socialmedia-section">
-            <i class="fa fa-facebook wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true"></i>
-            <i class="fa fa-twitter wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-            <i class="fa fa-pinterest wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-            <i class="fa fa-instagram wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-        </div>
-    </div>
-</footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

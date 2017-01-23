@@ -47,48 +47,8 @@
         </div>
     </div>
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/utopia_logo-01.png"></a>
-            </div>
+    <?php include 'navigationbar.php';?>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.php">HOME</a>
-                    </li>
-                    <li>
-                        <a class="#" href="services.html">SERVICES</a>
-                    </li>
-                    <li>
-                        <a class="active1" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.php#statistics1">STATISTICS</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="contact.html">CONTACT</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="testimonials.html">TESTIMONIALS</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
 
 
@@ -132,47 +92,18 @@
 
 
 
+
 <!-- Contact section on the footer of the page -->
-<section class="contact-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 contact-form_text">
-                <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">HURRY UP</p>
-                <h1 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".8s"">Get a <br> Quote Now</h1>
-            </div>
-            <div class="col-md-7 contact-form_inputs">
-                <div class="col-md-6 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
-                    <input type="text" name="" placeholder="Your Name">
-                </div>
-                <div class="col-md-6 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
-                    <input type="text" name="" placeholder="Your Email">
-                </div>
-                <div class="col-md-12 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
-                    <textarea name="" placeholder="Your Message" type="text" rows="6"></textarea>
-                </div>
-                <div class="col-md-12 small-horizontal_padding">
-                    <button class="wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">Submit</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+    <?php include 'get_free_quote.php';?>
+
+
+
 
 <!-- Footer on all the pages -->
+    <?php include 'footer_all.php';?>
 
-<footer class="container-fluid footer-section">
-    <div class="container">
-        <div class="col-md-6 copywrite-section mobile-d-n  wow zoomIn" data-wow-duration="1s" data-wow-delay=".8s" aria-hidden="true">
-            <a href="http://emiratesgraphic.com/" style="text-decoration: none; color: white;"><p>Copywright by Emirates Graphic</p></a>
-        </div>
-        <div class="col-md-6 socialmedia-section">
-            <i class="fa fa-facebook wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true"></i>
-            <i class="fa fa-twitter wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-            <i class="fa fa-pinterest wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-            <i class="fa fa-instagram wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-        </div>
-    </div>
-</footer>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

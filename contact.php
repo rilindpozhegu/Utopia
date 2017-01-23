@@ -65,22 +65,25 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.php">HOME</a>
+                        <a class="page-scroll active1" href="index">HOME</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="services.html">SERVICES</a>
+                        <a class="page-scroll active2 hvr-overline-reveal" href="services">SERVICES</a>
                     </li>
                     <li>
-                        <a class="#" href="portfolio.html">PORTFOLIO</a>
+                        <a class="# hvr-overline-reveal active3" href="portfolio">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.php#statistics1">STATISTICS</a>
+                        <a class="page-scroll hvr-overline-reveal" href="index#statistics1">STATISTICS</a>
                     </li>
                     <li>
-                        <a class="active1" href="contact.html">CONTACT</a>
+                        <a class="page-scroll hvr-overline-reveal active4" href="galery_page">GALERY</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="testimonials.html">TESTIMONIALS</a>
+                        <a class="page-scroll hvr-overline-reveal active5" href="contact">CONTACT</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll hvr-overline-reveal active6" href="testimonials">TESTIMONIALS</a>
                     </li>
                 </ul>
             </div>
@@ -92,7 +95,7 @@
 <!-- Map Section on top -->
 <section class="container-fluid map-seciton no-pading maps">
     <div class="">
-        <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=dubai&key=AIzaSyBj4Ve_5YfDQEeQe3nY0ipMTnc1EPjJl5g" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3216.6222641764366!2d55.27391001656138!3d25.185127446755065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6831f6693c85%3A0xb5b269f7897f4978!2sOpal+Tower+-+Dubai+-+United+Arab+Emirates!5e0!3m2!1sen!2s!4v1484233728384" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 </section>
 
@@ -132,22 +135,10 @@
 </section>
 
 
-
 <!-- Footer on all the pages -->
+    <?php include 'footer_all.php';?>
 
-<footer class="container-fluid footer-section">
-    <div class="container">
-        <div class="col-md-6 copywrite-section mobile-d-n  wow zoomIn" data-wow-duration="1s" data-wow-delay=".8s" aria-hidden="true">
-            <a href="http://emiratesgraphic.com/" style="text-decoration: none; color: white;"><p>Copywright by Emirates Graphic</p></a>
-        </div>
-        <div class="col-md-6 socialmedia-section">
-            <i class="fa fa-facebook wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true"></i>
-            <i class="fa fa-twitter wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-            <i class="fa fa-pinterest wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-            <i class="fa fa-instagram wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-        </div>
-    </div>
-</footer>
+
 
 
     <!-- jQuery -->

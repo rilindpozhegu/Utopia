@@ -46,49 +46,11 @@
             <div class="object" id="object_one"></div>
         </div>
     </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/utopia_logo-01.png"></a>
-            </div>
+       <!-- Navigation -->
+    <?php include 'navigationbar.php';?>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.php">HOME</a>
-                    </li>
-                    <li>
-                        <a class="#" href="services.html">SERVICES</a>
-                    </li>
-                    <li>
-                        <a class="#" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.php#statistics1">STATISTICS</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="contact.html">CONTACT</a>
-                    </li>
-                    <li>
-                        <a class="active1" href="testimonials.html">TESTIMONIALS</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+
+
 
 
 
@@ -125,7 +87,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
-                        <img src="img/testimonial_avatar-01.png">
+                        <img src="img/testimonial_avatar2-01.png">
                         <div class="row testimonial_text">
                         <h1>Trent Burch</h1>
                         <span>ENTREPRENEUR</span>
@@ -137,7 +99,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
-                        <img src="img/testimonial_avatar-01.png">
+                        <img src="img/testimonial_avatar3-01.png">
                         <div class="row testimonial_text">
                         <h1>Naomi Cruz</h1>
                         <span>ENTREPRENEUR</span>
@@ -153,7 +115,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
-                        <img src="img/testimonial_avatar-01.png">
+                        <img src="img/testimonial_avatar4-01.png">
                         <div class="row testimonial_text">
                         <h1>Jax Pierce</h1>
                         <span>ENTREPRENEUR</span>
@@ -165,7 +127,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
-                        <img src="img/testimonial_avatar-01.png">
+                        <img src="img/testimonial_avatar5-01.png">
                         <div class="row testimonial_text">
                         <h1>Raul Bennett</h1>
                         <span>ENTREPRENEUR</span>
@@ -177,7 +139,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
-                        <img src="img/testimonial_avatar-01.png">
+                        <img src="img/testimonial_avatar7-01.png">
                         <div class="row testimonial_text">
                         <h1>Alayna Jimenez</h1>
                         <span>ENTREPRENEUR</span>
@@ -193,7 +155,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
-                        <img src="img/testimonial_avatar-01.png">
+                        <img src="img/testimonial_avatar6-01.png">
                         <div class="row testimonial_text">
                         <h1>Kaylen Lewis</h1>
                         <span>ENTREPRENEUR</span>
@@ -205,7 +167,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
-                        <img src="img/testimonial_avatar-01.png">
+                        <img src="img/testimonial_avatar8-01.png">
                         <div class="row testimonial_text">
                         <h1>Jackson Terry</h1>
                         <span>ENTREPRENEUR</span>
@@ -224,25 +186,25 @@
             <div>
                 <img src="img/grayscale-logo-01.png" class=" wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
             </div>
-            <div class="col-md-3 col-xs-6  wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-3 col-xs-6  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                 <h1 id="target"></h1>
                 <!-- <p>projects</p> -->
-                <span>STATISTIC</span>
+                <span>SATISFIED CLIENTS</span>
             </div>
-            <div class="col-md-3 col-xs-6  wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-3 col-xs-6  wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s">
                 <h1 id="clients"></h1>
                 <!-- <p>clients</p> -->
-                <span>STATISTIC</span>
+                <span>PROJECTS COMPLETED</span>
             </div>
-            <div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                 <h1 id="countries"></h1>
                 <!-- <p>countries</p> -->
-                <span>STATISTIC</span>
+                <span>EMPLOYEES EMPLOYEES</span>
             </div>
-            <div class="col-md-3 col-xs-6 wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-3 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s">
                 <h1 id="coffe"></h1>
                 <!-- <p>coffee</p> -->
-                <span>STATISTIC</span>
+                <span>YEARS OF EXPERIENCE</span>
             </div>
         </div>
     </section>
@@ -251,47 +213,16 @@
 
 
 <!-- Contact section on the footer of the page -->
-<section class="contact-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 contact-form_text">
-                <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">HURRY UP</p>
-                <h1 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".8s"">Get a <br> Quote Now</h1>
-            </div>
-            <div class="col-md-7 contact-form_inputs">
-                <div class="col-md-6 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
-                    <input type="text" name="" placeholder="Your Name">
-                </div>
-                <div class="col-md-6 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
-                    <input type="text" name="" placeholder="Your Email">
-                </div>
-                <div class="col-md-12 small-horizontal_padding wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">
-                    <textarea name="" placeholder="Your Message" type="text" rows="6"></textarea>
-                </div>
-                <div class="col-md-12 small-horizontal_padding">
-                    <button class="wow flipInX" data-wow-duration="1s" data-wow-delay=".8s">Submit</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+    <?php include 'get_free_quote.php';?>
+
+
 
 
 <!-- Footer on all the pages -->
+    <?php include 'footer_all.php';?>
 
-<footer class="container-fluid footer-section">
-    <div class="container">
-        <div class="col-md-6 copywrite-section mobile-d-n  wow zoomIn" data-wow-duration="1s" data-wow-delay=".8s" aria-hidden="true">
-            <a href="http://emiratesgraphic.com/" style="text-decoration: none; color: white;"><p>Copywright by Emirates Graphic</p></a>
-        </div>
-        <div class="col-md-6 socialmedia-section">
-            <i class="fa fa-facebook wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true"></i>
-            <i class="fa fa-twitter wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-            <i class="fa fa-pinterest wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-            <i class="fa fa-instagram wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i>
-        </div>
-    </div>
-</footer>
+
 
 
     <!-- jQuery -->

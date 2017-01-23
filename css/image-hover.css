@@ -170,12 +170,12 @@
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
   -webkit-transform: translate3d(-10px,0,0);
-  transform: translate3d(-10px,0,0);
+  transform: translate3d(-130px,0,0);
 }
 
 .hovereffect:hover img {
   opacity: 0.6;
-  filter: alpha(opacity=60);
+  filter: alpha(opacity=620);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }

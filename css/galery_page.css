@@ -49,10 +49,21 @@
 .no-pading {
   padding: 0px;
 }
-.active6 {
+.active4 {
     opacity: 1 !important;
     border-bottom: solid 3px rgba(255, 255, 255, 0.79);
 }
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+
+.galery-padding {
+  padding: 0px 3px; 
+}
+
 /*
 ///////////////////////////////////////////////////
 First Section Cover Image, Text, Button 
@@ -60,11 +71,11 @@ First Section Cover Image, Text, Button
 */
 
 .first_section {
-  background-image: url('../img/cover/testimonials_cover-01.png');
+  background-image: url('../img/cover/galery_cover-01.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  padding: 200px 0px 170px;
+  padding: 200px 0px 230px;
   background-position: 30% 0%;
   background-attachment: fixed;
 }
@@ -97,125 +108,23 @@ First Section Cover Image, Text, Button
   margin-top: 30px;
 }
 
-
-
 /*
 ///////////////////////////////////////////////////
-  Testimonials Section Homepage
+Galery 
 ///////////////////////////////////////////////////
 */
-.testimonials_section {
-  padding: 60px 0px;
-  text-align: center;
-  background-color: #f2f2f2;
-}
-
-.testimonials_section h1 {
-  margin-top: 0px;
+.galery-title {
+  margin-top: 40px;
   margin-bottom: 0px;
   font-family: 'PlayfairDisplay-Italic';
   font-size: 45px; 
-}
-.testimonials_section span {
-  color: #b3b3b3;  
-  font-family: "Montserrat-Light";
-}
-
-.testimonials_section p {
-  color: #b3b3b3;
-  font-size: 12px;
-  font-family: "Montserrat-UltraLight";
-}
-
-.horizontal_padding-testimonial {
-  padding: 0px 10px;
-  margin: 10px 0px;
-}
-.panel-testimonial1 img {
-  border-radius: 150px;
-  padding: 10px;
-  width: 250px;
-  margin-bottom: -120px;
-  background: transparent;
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(100%);
-  transition: ease-in-out 0.3s all;
-}
-.panel-testimonial1:hover img {
-    -webkit-filter: grayscale(0%);
-    background: white;
-}
-.panel-testimonial1 .testimonial_text {
-  border-radius: 20px;
-  background-color: transparent;
-  padding: 20px;
-  transition: ease-in-out all 0.3s;
-}
-.panel-testimonial1:hover .testimonial_text {
-  background-color: white;
-}
-.testimonial_text h1 {
-  margin-top: 95px;
-}
-
-
-
-
-/*
-///////////////////////////////////////////////////
-  Facts Section Homepage
-///////////////////////////////////////////////////
-*/
-
-
-.facts-section {
-  /*background-image: url('../img/cover/facts_cover-01.png');*/
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
-  color: #e6e6e6;
-  padding: 90px 0px;
+}
+.iso-box img {
+  width: 100% !important;
+  margin: 3px 0px;
 }
 
-.facts-section img {
-  width: 270px;
+.iso-section {
+  padding: 40px 0px;
 }
-
-.facts-section h1 {
-  font-family: 'PlayfairDisplay-Regular';
-  font-size: 90px;
-}
-
-.facts-section span {
-  font-family: 'Montserrat-UltraLight';
-}
-
-
-
-
-
-/*
-///////////////////////////////////////////////////
-Responsive Part 
-///////////////////////////////////////////////////
-*/
-
-@media only screen and (min-width: 844px) {
-    .desktop-d-n {
-        display: none;
-    }
-}
-
-/*Mobile Version*/
-
-@media only screen and (max-width: 844px) {
-    .mobile-d-n {
-        display: none;
-    }
-    .cover_text h1 {
-      font-size: 40px;
-    }
-    .horizontal_padding-testimonial {
-      padding: 10px 10px;
-    }
-  }
